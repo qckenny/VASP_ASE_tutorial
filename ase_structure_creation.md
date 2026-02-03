@@ -14,10 +14,9 @@ ASE is used within python code, but it does have some good graphical user interf
 
 To use ASE within any python script, use import statements to access the functions you need. Today, our code will start with 
 ```python
-from ase import Atoms
 from ase.io import write
 from ase.visualize import view
-from ase import build
+from ase.build import graphene, sort
 ```
 
 ## Next
